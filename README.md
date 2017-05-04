@@ -9,3 +9,4 @@ For example:
 alias pommy="python3 ~/yourdirectory/.../pommy.py"
 ```
 
+For now, you can stop it with Ctrl+C. 
