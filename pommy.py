@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # from threading import Timer
 # from notifier import show_message as s
 # import arguments as a
