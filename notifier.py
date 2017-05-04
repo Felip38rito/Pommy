@@ -12,7 +12,7 @@ def show_message(message):
     os.system('notify-send "%s" --icon=gnome-devel' % message)
   elif sys.platform == 'darwin':
     print("*-- macOS : Verifique se o terminal-notifier está instalado (Homebrew) *")
-    os.system('terminal-notifier -message "%s" -title "Pomy" -sound default' % message)
+    os.system('terminal-notifier -message "%s" -title "Pommy" -sound default' % message)
   # else:
     # No Windows precisamos de uma abordagem mais alternativa
 
