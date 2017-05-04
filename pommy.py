@@ -32,6 +32,6 @@ def send_break():
 
 def main():
   ''' Procedimento inicial executado no carregamento '''
-  callback(3/60, init, "Get prepared! ... ")
+  callback(3/60, init, "Esquentando o motor! ... ")
 
 main()
