@@ -35,4 +35,3 @@ def main():
   callback(3/60, init, "Get prepared! ... ")
 
 main()
-print(cli_arguments)

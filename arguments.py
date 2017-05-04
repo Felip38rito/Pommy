@@ -9,4 +9,9 @@ parser.add_argument("-p", help="Quantidade de pomos com timer curto", type=int, 
 
 def parse_arguments():
   ''' Executa o parseamento '''
-  return parser.parse_args()
+  args = parser.parse_args()
+  print("*** Pommy ***")
+  print("* Tempo dos pomodoros %d minutos *" % args.t)
+  print("* Break curto %d minutos *" % args.b)
+  print("* Break longo %d minutos *" % args.lb)
+  return args
