@@ -6,7 +6,7 @@ def show_message(message):
   # por enquanto linux
   if sys.platform == 'linux':
     print("*-- Linux: Verifique se sua distro tem o notify-send instalado. *")
-    os.system('notify-send "%s"' % message)
+    os.system('notify-send "%s" --icon=gnome-devel' % message)
   elif sys.platform == 'darwin': 
     print("*-- macOS : Verifique se o terminal-notifier está instalado (Homebrew) *")
     os.system('terminal-notifier -message "%s" -title "Pomy" -sound default' % message)
@@ -23,4 +23,4 @@ def callback(wait, f, message = ""):
     print(message)
   # executo a thread
   t.start()
-  print("Aguardando %d minutos..." % wait)
+  print("Aguardando %3.1f minutos..." % wait)

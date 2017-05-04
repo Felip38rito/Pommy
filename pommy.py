@@ -29,7 +29,7 @@ def send_break():
     callback(args.lb, send_work)
 
 def main(opt):
-  callback(3, init, "Get prepared! ... ")
+  callback(3/60, init, "Get prepared! ... ")
 
 main(args)
 print(args)
