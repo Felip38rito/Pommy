@@ -2,11 +2,18 @@
 Simple pomodoro solution implemented in python
 
 ## Usage:
-I recommend you create an alias on your bash settings to run the pommy.py from command line
-
-For example:
+You can run pommy locally by using (only python >= 3 is supported) 
 ```bash
-alias pommy="python3 ~/yourdirectory/.../pommy.py"
+python3 pommy.py 
+# python3 pommy.py -h for help with the parameters
 ```
+I recomend you create an alias for the command line. 
 
-For now, you can stop it with Ctrl+C. 
+You can do it by editing ~/.bash_profile file adding:
+
+```bash
+alias pommy="/..your_python3_dir../python ~/yourdirectory/.../pommy.py"
+```
+And then, you can run only the pommy command from inside any directory of your os. 
+
+For now, you can stop pommy using Ctrl+C or Ctrl+Z
